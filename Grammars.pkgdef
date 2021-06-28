@@ -1,0 +1,16 @@
+﻿; Registering the package
+[$RootKey$\InstalledProducts\recclangsupportPackage]
+"Package"="{ac8ecb3a-ffd1-4044-8c2b-2aacbb06a3ba}"
+[$RootKey$\BindingPaths\{ac8ecb3a-ffd1-4044-8c2b-2aacbb06a3ba}]
+"$PackageFolder$"=""
+
+; Registering the TextMate grammar
+[$RootKey$\TextMate\Repositories]
+"recclangsupport"="$PackageFolder$\Syntaxes"
+
+; Match file extensions with icons. See full icon list at https://glyphlist.azurewebsites.net/knownmonikers/
+[$RootKey$\ShellFileAssociations\.rct]
+"DefaultIconMoniker"="KnownMonikers.DirectXTwoDApplication"
+
+[$RootKey$\ShellFileAssociations\.rcp]
+"DefaultIconMoniker"="KnownMonikers.SolutionNoColor"
